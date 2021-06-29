@@ -1,0 +1,39 @@
+.card {
+    text-align: center;
+    margin: 8px;
+    padding: 8px;
+    min-height: 380px;
+}
+
+.card p {
+    margin: 8px 8px;
+    font-size: 18px;
+}
+
+.card span {
+    font-weight: bold;
+}
+
+.card h4 {
+    font-size: large;
+}
+
+.card button {
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: medium;
+    background: #F37020;
+    color: #29292e;
+    padding: 0 32px;
+
+    cursor: pointer;
+    border: 0;
+
+    transition: filter 0.2s;
+}
+
+.card button:hover {
+    filter: brightness(0.9);
+}

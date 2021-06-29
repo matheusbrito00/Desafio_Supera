@@ -1,0 +1,17 @@
+.orderby {
+    display: flex;
+    align-items: center;
+}
+
+#title-orderby {
+    margin-right: 10px;
+}
+
+select {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding-left: 8px;
+    height: 26px;
+    min-width: 190px;
+    color: #494949;
+}
