@@ -3,10 +3,15 @@ import React from 'react';
 import './style.css';
 
 export function Cart(props) {
-    const { cartItems, addToCart, removeToCart } = props;
+    const { cartItems, addToCart, removeToCart, removeAllToCart } = props;
     const gamesPrice = cartItems.reduce((a, c) => a + c.price * c.qtd, 0);
     const taxaFrete = gamesPrice > 250 ? 0 : cartItems.reduce((a, c) => a + c.qtd * 10, 0);
     const totalPrice = gamesPrice + taxaFrete;
+
+    function handleFinalizaVenda () {
+        removeAllToCart();
+        alert('Compra finalizada com sucesso!');
+    }
 
     return (
         <aside className="col-1">
@@ -40,7 +45,7 @@ export function Cart(props) {
                         <div className="col-1 text-right"><strong>R${totalPrice.toFixed(2)}</strong></div>
                     </div>
                     <div className="row">
-                        <button onClick={() => alert('Compra Finalizada')}>
+                        <button onClick={handleFinalizaVenda}>
                             Finalizar Compra
                         </button>
                     </div>

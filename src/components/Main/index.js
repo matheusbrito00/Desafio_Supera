@@ -14,7 +14,6 @@ export function Main(props) {
 
     function handleChangeSort(e) {
         setSort(e.target.value);
-        listProducts();
     }
 
     function listProducts() {
