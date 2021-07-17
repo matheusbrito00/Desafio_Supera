@@ -1,4 +1,4 @@
-import products from './data/products.json';
+import products from './products.json';
 
 const data = products.map(games => {
     return games;

@@ -1,3 +1,15 @@
+.game-list-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 50px;
+}
+
+.game-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .orderby {
     display: flex;
     align-items: center;

@@ -37,3 +37,11 @@
 .card button:hover {
     filter: brightness(0.9);
 }
+
+body .Toastify .Toastify__toast-container .Toastify__toast--success {
+    background-color: #F37020;
+}
+
+body .Toastify .Toastify__toast-container .Toastify__toast--success button {
+    width: 8px;
+}

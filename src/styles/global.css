@@ -9,25 +9,13 @@ body {
     color: #29292e;
 }
 
+a {
+    text-decoration: none;
+    color: #292929;
+}
+
 body, button {
     font: 400 16px 'Roboto', sans-serif;
-}
-
-.row {
-    display: flex;
-    justify-content: space-between;
-}
-
-.col-1 {
-    flex: 1;
-}
-
-.col-2 {
-    flex: 2;
-}
-
-.row.center {
-    align-items: center;
 }
 
 button {
@@ -65,8 +53,4 @@ button.badge {
     border: none;
     color: #FFF;
     width: 1.5rem;
-}
-
-.text-right {
-    text-align: right;
 }
