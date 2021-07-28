@@ -27,23 +27,23 @@
 
 ### Demo
  
- <a href="https://desafio-supera.herokuapp.com/"> Desafio Supera </a>
+<a href="https://desafio-supera.herokuapp.com/"> Desafio Supera </a>
  
- ### Pré-requisitos
+### Pré-requisitos
  
- # Clone este repositório
+ ##### Clone este repositório
 $ git clone <https://github.com/matheusbrito00/Desafio_Supera>
 
-# Acesse a pasta do projeto no terminal/cmd
+##### Acesse a pasta do projeto no terminal/cmd
 $ cd Desafio_Supera
 
-# Instale as dependências
+##### Instale as dependências
 $ npm install
 
-# Execute a aplicação em modo de desenvolvimento
+##### Execute a aplicação em modo de desenvolvimento
 $ npm start
 
-# O servidor inciará na porta:3333 - acesse <http://localhost:3000> 
+##### O servidor inciará na porta:3333 - acesse <http://localhost:3000> 
 
 ### 🛠 Tecnologias
 
