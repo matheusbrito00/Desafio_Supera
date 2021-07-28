@@ -6,10 +6,6 @@ import './style.css';
 export function Header() {
     const [countCartItems, setCountCartItems] = useState(0);
 
-    useEffect(() => {
-        setCountCartItems(localStorage.getItem("cartCount"));
-      }, []);
-
     return (
         <header>
             <div>

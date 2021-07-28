@@ -13,8 +13,7 @@ export default function Home() {
 
   useEffect(() => {
     localStorage.setItem('cartArray', JSON.stringify(cartItems));
-    localStorage.setItem('cartCount', cartItemsCount);
-  }, [cartItems, cartItemsCount]);
+  }, [cartItems]);
 
   sortProducts();
 
@@ -60,15 +59,15 @@ export default function Home() {
 
     if(gameExist) {
       setCartItems(cartItems.map(x => x.id === game.id ? {...gameExist, qtd: gameExist.qtd + 1} : x));
-      setCartItemsCount(cartItems.reduce((a, c) => a + c.qtd, 1));
+      setCartItemsCount(cartItemsCount + 1);
     } else {
       setCartItems([...cartItems, {...game, qtd: 1}]);
-      setCartItemsCount(cartItems.reduce((a, c) => a + c.qtd, 1));
+      setCartItemsCount(cartItemsCount + 1);
     }
 
     toast.success("Item adicionado ao carrinho!");
+    console.log(cartItemsCount);
   }
-
   return (
     <>
       <div className="game-list-title">
