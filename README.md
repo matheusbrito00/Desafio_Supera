@@ -7,11 +7,10 @@
 <p align="center">🚀 lib para construir interfaces do usuário com componentes reutilizáveis</p>
 
 <p align="center">
- <a href="#objetivo">Objetivo</a> •
- <a href="#roadmap">Roadmap</a> • 
- <a href="#tecnologias">Tecnologias</a> • 
- <a href="#contribuicao">Contribuição</a> • 
- <a href="#licenc-a">Licença</a> • 
+ <a href="#Features">Features</a> •
+ <a href="#Demo">Demo</a> • 
+ <a href="#Pré-requisitos">Pré-requisitos</a> • 
+ <a href="#Tecnologias">Tecnologias</a> • 
  <a href="#autor">Autor</a>
 </p>
 
@@ -62,5 +61,5 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 Feito por Matheus Brito <3!
 
-[![Instagram Badge](https://img.shields.io/badge/-@tgmarinho-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=instagram&logoColor=white&link=https://www.instagram.com/matheusbrit00/)](https://www.instagram.com/matheusbrit00/) [![Linkedin Badge](https://img.shields.io/badge/-Thiago-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/matheusbrito00/)](https://www.linkedin.com/in/matheusbrito00/) 
+[![Instagram Badge](https://img.shields.io/badge/-@matheusbrit00-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=instagram&logoColor=white&link=https://www.instagram.com/matheusbrit00/)](https://www.instagram.com/matheusbrit00/) [![Linkedin Badge](https://img.shields.io/badge/-Matheus-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/matheusbrito00/)](https://www.linkedin.com/in/matheusbrito00/) 
                             
