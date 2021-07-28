@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+<h1 align="center">Desafio Supera</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">Desafio para criação de um ecommerce usando ReactJs</p>
+<h1 align="center">
+    <a href="https://pt-br.reactjs.org/">🔗 React</a>
+</h1>
+<p align="center">🚀 lib para construir interfaces do usuário com componentes reutilizáveis</p>
 
-## Available Scripts
+<p align="center">
+ <a href="#objetivo">Objetivo</a> •
+ <a href="#roadmap">Roadmap</a> • 
+ <a href="#tecnologias">Tecnologias</a> • 
+ <a href="#contribuicao">Contribuição</a> • 
+ <a href="#licenc-a">Licença</a> • 
+ <a href="#autor">Autor</a>
+</p>
 
-In the project directory, you can run:
+<h4 align="center"> 
+	🚧  Projeto ainda em construção  🚧
+</h4>
 
-### `yarn start`
+### Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [x] Listagem dos Produtos dinamicamente
+- [x] Carrinho de compras independente
+- [x] Calculo do frete automatico
+- [ ] Numero de itens no carrinho dinamicamente 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Demo
+ 
+ <a href="https://desafio-supera.herokuapp.com/"> Desafio Supera </a>
+ 
+ ### Pré-requisitos
+ 
+ # Clone este repositório
+$ git clone <https://github.com/matheusbrito00/Desafio_Supera>
 
-### `yarn test`
+# Acesse a pasta do projeto no terminal/cmd
+$ cd Desafio_Supera
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Instale as dependências
+$ npm install
 
-### `yarn build`
+# Execute a aplicação em modo de desenvolvimento
+$ npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# O servidor inciará na porta:3333 - acesse <http://localhost:3000> 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🛠 Tecnologias
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+As seguintes ferramentas foram usadas na construção do projeto:
 
-### `yarn eject`
+- [React](https://pt-br.reactjs.org/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Autor
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<a href="https://github.com/matheusbrito00">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/59891247?s=400&u=0ca61d39b048a95728b053dda264efe22ca074ec&v=4" width="100px;" alt="Matheus Brito"/>
+ <br />
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Feito por Matheus Brito <3!
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![Instagram Badge](https://img.shields.io/badge/-@tgmarinho-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=instagram&logoColor=white&link=https://www.instagram.com/matheusbrit00/)](https://www.instagram.com/matheusbrit00/) [![Linkedin Badge](https://img.shields.io/badge/-Thiago-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/matheusbrito00/)](https://www.linkedin.com/in/matheusbrito00/) 
+                            
