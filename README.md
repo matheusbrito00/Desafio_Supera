@@ -55,7 +55,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ---
 
 <a href="https://github.com/matheusbrito00">
- <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/59891247?s=400&u=0ca61d39b048a95728b053dda264efe22ca074ec&v=4" width="100px;" alt="Matheus Brito"/>
+ <img style="border-radius: 50%" src="https://avatars.githubusercontent.com/u/59891247?s=400&u=0ca61d39b048a95728b053dda264efe22ca074ec&v=4" width="100px;" alt="Matheus Brito"/>
  <br />
 
 
